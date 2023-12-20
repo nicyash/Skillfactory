@@ -5,7 +5,7 @@ def print_list(g_list): #вывод в консоль поля игры
     for i in range(3):
         print(i, *g_list[i])
 
-def equals_(a, b, c, p): # проверка на равенство значений в списке и кто вводил
+def equals_(a, b, c, p): # проверка на равенство значений в списке и кто ходил
     if a == b:
         if b == c:
             if c == p:
